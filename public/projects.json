@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "name": "Flashcards App",
+      "description": "An app for studying flashcards. Built with React Native.",
+      "categories": ["React Native", "SQLite"],
+      "thumbnail": "/thumbnails/flash-cards.png",
+      "link": "https://github.com/Bremgovi/Japanese-Flashcards-App"
+    },
+    {
+      "name": "Library Database Manager",
+      "description": "A web app for managing a library database. Built with Next.js, PostgreSQL and powered by NextAuth.js.",
+      "categories": ["Next.js", "PostgreSQL", "NextAuth.js"],
+      "thumbnail": "/thumbnails/books.png",
+      "link": "https://github.com/Bremgovi/Library-Database-Manager"
+    },
+    {
+      "name": "2D Platformer",
+      "description": "A 2D platformer game built with Godot Engine.",
+      "categories": ["Godot Engine", "GDScript"],
+      "thumbnail": "/thumbnails/godot.png",
+      "link": "https://github.com/Bremgovi/2DPlatformer"
+    },
+    {
+      "name": "GPT Language Assistant",
+      "description": "A language assistant powered by OpenAI's GPT-3.5 and MoeGoe TTS, focused in Japanese Language ",
+      "categories": ["Python", "MoeGoe TTS", "GPT 3.5"],
+      "thumbnail": "/thumbnails/chip.png",
+      "link": "https://github.com/Bremgovi/GPTAnime2"
+    },
+    {
+      "name": "CatDog App",
+      "description": "Relaxing app that shows random facts and images of cats and dogs. As well as Trivia game. Built with Java.",
+      "categories": ["Java", "Android"],
+      "thumbnail": "/thumbnails/pet-care.png",
+      "link": "https://github.com/Bremgovi/CatDogApp"
+    }
+  ]
+}

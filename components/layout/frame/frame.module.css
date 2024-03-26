@@ -1,0 +1,58 @@
+.frame {
+  flex-direction: column;
+}
+
+.titlebar {
+  border-radius: 10px 10px 0 0;
+  height: 24px;
+  background: var(--gradient);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5px;
+  user-select: none;
+}
+
+.title {
+  font-family: consolas;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.controls {
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5px;
+}
+
+.control {
+  background-color: #000;
+  width: 17px;
+  height: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.control:active {
+  transform: scale(1.05);
+  filter: invert(1);
+}
+
+.large-content,
+.small-content {
+  background-color: #000c;
+  border-radius: 0 0 10px 10px;
+}
+
+.large-content {
+  padding: 20px;
+}
+
+.small-content {
+  padding: 5px 20px;
+}
