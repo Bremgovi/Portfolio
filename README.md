@@ -1,3 +1,3 @@
-# Hello there <3
+# Portfolio
 
-This is my web site.
+This is my portfolio website
