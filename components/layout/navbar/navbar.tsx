@@ -1,6 +1,5 @@
-import { Box, Flex } from '@chakra-ui/react';
+import { Box } from '@chakra-ui/react';
 import { BsFolder, BsHouse } from 'react-icons/bs';
-
 import PageButton from '@/components/buttons/page-button';
 import styles from './navbar.module.css';
 

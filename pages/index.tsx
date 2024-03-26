@@ -8,7 +8,7 @@ export default function Home() {
       <PresentationCard />
 
       <Box marginTop={'20px'}>
-        <Heading size={'xl'}>Who am i?</Heading>
+        <Heading size="xl">Who am i?</Heading>
         <Text>
           My name is Emilio, I am a 19yo programmer from Mexico. I am Computer
           Systems Engineering student and I love programming and learning new
@@ -22,9 +22,9 @@ export default function Home() {
         </Text>
 
         <Text marginTop={'20px'}>
-          I also like learning new languages, such as Japanese and Korean. I'm
-          more experienced in Japanese Language but I studied abroad in Korea so
-          I also have enough knowledge. 🍙
+          I also like learning new languages, such as Japanese and Korean.
+          I&apos;m more experienced in Japanese Language but I studied abroad in
+          Korea so I also have enough knowledge. 🍙
         </Text>
       </Box>
     </Box>
