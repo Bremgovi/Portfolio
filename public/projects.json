@@ -8,6 +8,13 @@
       "link": "https://github.com/Bremgovi/Japanese-Flashcards-App"
     },
     {
+      "name": "Farmaco-Pedidos",
+      "description": "A web app with Inventory Management and Order System with demand prediction for a Hospital. Built with Next.js and PostgreSQL powered by Prisma.",
+      "categories": ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS", "Flask"],
+      "thumbnail": "/thumbnails/logo.png",
+      "link": "https://github.com/Bremgovi/Farmaco-pedidos"
+    },
+    {
       "name": "Library Database Manager",
       "description": "A web app for managing a library database. Built with Next.js, PostgreSQL and powered by NextAuth.js.",
       "categories": ["Next.js", "PostgreSQL", "NextAuth.js"],

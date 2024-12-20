@@ -10,7 +10,7 @@ export default function Home() {
       <Box marginTop={'20px'}>
         <Heading size="xl">Who am i?</Heading>
         <Text>
-          My name is Emilio, I am a 19yo programmer from Mexico. I am Computer
+          My name is Emilio, I am a 20yo programmer from Mexico. I am Computer
           Systems Engineering student and I love programming and learning new
           things. 💫📕
         </Text>

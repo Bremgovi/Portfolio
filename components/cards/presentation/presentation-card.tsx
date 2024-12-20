@@ -16,7 +16,7 @@ function TechIcon({ id }: { id: string }) {
 
 export default function PresentationCard() {
   return (
-    <Flex>
+    <Flex direction={{ base: 'column', md: 'row' }}>
       <Box>
         <Box>
           <Box
@@ -40,7 +40,10 @@ export default function PresentationCard() {
           <Badge colorScheme={'pink'}>Available to Hire</Badge>
         </Box>
       </Box>
-      <Box marginLeft={'20px'}>
+      <Box
+        marginLeft={{ base: '0', md: '20px' }}
+        marginTop={{ base: '20px', md: '0' }}
+      >
         <Heading size={'xl'}>Bremgovi</Heading>
         <Text>⚛️ React.js, Next.js, NextAuth, Java, Python and more.</Text>
         <Text>
@@ -50,7 +53,7 @@ export default function PresentationCard() {
           💖 Experience with databases like PostgreSQL, SQLite, DB2 and Oracle
         </Text>
 
-        <Flex marginTop={'5px'} alignItems={'center'}>
+        <Flex marginTop={'5px'} alignItems={'center'} flexWrap={'wrap'}>
           <TechIcon id={'git'} />
           <TechIcon id={'html'} />
           <TechIcon id={'java'} />

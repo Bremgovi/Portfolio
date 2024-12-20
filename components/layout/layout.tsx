@@ -14,8 +14,12 @@ export default function Layout({ children }: PropsWithChildren) {
     <Container height={'100vh'} gap={'30px'} p={'45px 0'}>
       <Navbar />
 
-      <Flex justifyContent={'space-between'} gap={'20px'}>
-        <Box width={'70%'}>
+      <Flex
+        justifyContent={'space-between'}
+        gap={'20px'}
+        flexDir={{ base: 'column', md: 'row' }}
+      >
+        <Box width={'100%'}>
           <Frame size="large" title={`📁 C:/BREMGOVI${pathname.toUpperCase()}`}>
             {children}
           </Frame>
